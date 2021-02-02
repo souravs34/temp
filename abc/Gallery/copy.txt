@@ -1,0 +1,22 @@
+<div class="row mb-4 second-row align-items-end">
+            <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column nature column cars">
+              <a href="assets/Event/WhatsApp Image 2020-09-15 at 2.49.30 PM.jpeg" data-lightbox="library" >
+                <img src="assets/Event/WhatsApp Image 2020-09-15 at 2.49.30 PM.jpeg" class="img-thumbnail gallery-img">
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column cars">
+              <a href="assets/Event/WhatsApp Image 2020-09-15 at 2.48.32 PM.jpeg" data-lightbox="library" >
+                <img src="assets/Event/WhatsApp Image 2020-09-15 at 2.48.32 PM.jpeg" class="img-thumbnail gallery-img">
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column cars">
+              <a href="assets/Event/WhatsApp Image 2020-09-15 at 2.49.29 PM.jpeg" data-lightbox="library" >
+                <img src="assets/Event/WhatsApp Image 2020-09-15 at 2.49.29 PM.jpeg" class="img-thumbnail gallery-img">
+              </a>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column cars">
+              <a href="assets/Event/WhatsApp Image 2020-09-15 at 3.30.11 PM.jpeg" data-lightbox="library" >
+                <img src="assets/Event/WhatsApp Image 2020-09-15 at 3.30.11 PM.jpeg" class="img-thumbnail gallery-img">
+              </a>
+            </div>
+          </div>

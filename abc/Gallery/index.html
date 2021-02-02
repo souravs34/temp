@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+    <title>PCSB</title>
+    <meta name="description" content="">	
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Favicons
+    ================================================== -->
+    <link rel="icon" href="img/favicon/favicon-32x32.png" type="image/x-icon" />
+    <link rel="icon" href="https://cookieless.MySite.com/favicon.ico" type="image/x-icon" />
+
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+	<link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans+Condensed:wght@300&family=Righteous&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+	<link rel="icon" href="images/CSI Logo (2).png" type="image/x-icon" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/favicon/favicon-144x144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/favicon/favicon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/favicon-54x54.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans+Condensed:wght@300&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Template styles-->
+	
+	<!-- Responsive styles-->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Animation -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Prettyphoto -->
+	<link rel="stylesheet" href="css/prettyPhoto.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/owl.theme.css">
+	<!-- Flexslider -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flexslider -->
+    <link rel="stylesheet" href="css/cd-hero.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  
+    <link rel="stylesheet" href="css/lightbox.css">
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+<style>
+.row1 {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row1,
+.row1 > .column1 {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column1 {
+  float: left;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* The "show" class is added to the filtered elements */
+.show1 {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
+}
+
+.gallery-img {
+    backface-visibility: hidden;
+    transition: all 0.25s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 15px #777777;
+}
+.show1 {
+  display: block;
+}
+
+</style>
+</head>
+
+<body>
+    <div class="body-inner">
+        
+        <!-- Header start -->
+        <header id="header" class="navbar-fixed-top header" role="banner">
+            <div class="container">
+                <div class="row">
+                    <!-- Logo start -->
+                    <div class="navbar-header">
+                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <div class="navbar-brand navbar-bg">
+                              <div id="csi-logo" class="visible-lg visible-md"><img src="images/brand.png"></div>
+                            
+                            <!-- <div>PICT CSI Student Branch</div> -->
+                        </div>                   
+                    </div><!--/ Logo end -->
+                    <nav class="collapse navbar-collapse clearfix" role="navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../index.html#about-us">About Us</a></li>
+          
+                            <!-- <li class="dropdown">
+                              <li><a href="../Events/index.html">Events</a></li>
+                              
+                            </li> -->
+                            <!-- <li class="dropdown">
+                              <li><a href="../pcsb2021/index.html">Domains</a></li>
+                              <div class="dropdown-menu">
+                                    <ul>
+                                           <li><a href="#technical">Technical</a></li>
+                                           <li><a href="#non-technical">Non-Technical</a></li>
+                                    </ul>
+                                </div>
+                            </li> -->
+                            <li class="active">
+                                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
+                            </li>
+                            <li><a href="../contact.html">Contact Us</a></li>
+                        </ul>
+                    </nav><!--/ Navigation end -->
+                </div><!--/ Row end -->
+            </div><!--/ Container end -->
+        </header><!--/ Header end -->
+    </div>
+<section>  
+  <div>  
+<div id="myBtnContainer" style="padding: 10px; text-align: center; background-color: #f4f4f4;">
+  <button class="btn active1" onclick="filterSelection('all1')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> Girlscript</button>
+  <button class="btn" onclick="filterSelection('people')"> CSI family</button>
+  <button class="btn" onclick="filterSelection('orientation')">Orientation</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+
+
+
+
+<div class="row mb-4 second-row align-items-end" style="padding: 10px;">
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/photos/IMG-20201031-WA0019.jpg" data-lightbox="library" >
+      <img src="images/photos/IMG-20201031-WA0019.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/old picture/IMG-20201030-WA0016.jpg" data-lightbox="library" >
+      <img src="images/old picture/IMG-20201030-WA0016.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/old picture/IMG-20201030-WA0015.jpg" data-lightbox="library" >
+      <img src="images/old picture/IMG-20201030-WA0015.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/old picture/IMG-20201030-WA0019.jpg" data-lightbox="library" >
+      <img src="images/old picture/IMG-20201030-WA0019.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+</div>
+<div class="row mb-4 second-row align-items-end" style="padding: 10px;">
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/old picture/IMG-20201030-WA0020.jpg" data-lightbox="library" >
+      <img src="images/old picture/IMG-20201030-WA0020.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/old picture/IMG-20201030-WA0022.jpg" data-lightbox="library" >
+      <img src="images/old picture/IMG-20201030-WA0022.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/old picture/IMG-20201030-WA0024.jpg" data-lightbox="library" >
+      <img src="images/old picture/IMG-20201030-WA0024.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/old picture/IMG-20201030-WA0025.jpg" data-lightbox="library" >
+      <img src="images/old picture/IMG-20201030-WA0025.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+</div>
+<div class="row mb-4 second-row align-items-end" style="padding: 10px;">
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/old picture/IMG-20201030-WA0029.jpg" data-lightbox="library" >
+      <img src="images/old picture/IMG-20201030-WA0029.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/old picture/IMG-20201030-WA0030.jpg" data-lightbox="library" >
+      <img src="images/old picture/IMG-20201030-WA0030.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/photos/firstMeet.jpg" data-lightbox="library" >
+      <img src="images/photos/firstMeet.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href=" images/photos/IMG-20201031-WA0001.jpg" data-lightbox="library" >
+      <img src="images/photos/IMG-20201031-WA0001.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+</div>
+<div class="row mb-4 second-row align-items-end" style="padding: 10px;">
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/photos/IMG-20201031-WA0002.jpg" data-lightbox="library" >
+      <img src="images/photos/IMG-20201031-WA0002.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/photos/IMG-20201031-WA0007.jpg" data-lightbox="library" >
+      <img src="images/photos/IMG-20201031-WA0007.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/photos/IMG-20201031-WA0003.jpg" data-lightbox="library" >
+      <img src="images/photos/IMG-20201031-WA0003.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/photos/IMG-20201031-WA0005.jpg" data-lightbox="library" >
+      <img src="images/photos/IMG-20201031-WA0005.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+</div>
+
+<div class="row mb-4 second-row align-items-end" style="padding: 10px;">
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/photos/Screenshot (564).png " data-lightbox="library" >
+      <img src="images/photos/Screenshot (564).png" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/photos/IMG-20201031-WA0016 (3).jpg" data-lightbox="library" >
+      <img src="images/photos/IMG-20201031-WA0016 (3).jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/photos/IMG-20201031-WA0017.jpg" data-lightbox="library" >
+      <img src="images/photos/IMG-20201031-WA0017.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/photos/IMG-20201031-WA0018.jpg" data-lightbox="library" >
+      <img src="images/photos/IMG-20201031-WA0018.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+</div>
+<div class="row mb-4 second-row align-items-end" style="padding: 10px;">
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 orientation">
+    <a href="images/Orientation/IMG-20201031-WA0004.jpg" data-lightbox="library" >
+      <img src="images/Orientation/IMG-20201031-WA0004.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 orientation">
+    <a href="images/Orientation/IMG-20201031-WA0013.jpg" data-lightbox="library" >
+      <img src="images/Orientation/IMG-20201031-WA0013.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 orientation">
+    <a href="images/Girlscript/IMG-20201031-WA0021.jpg" data-lightbox="library" >
+      <img src="images/Girlscript/IMG-20201031-WA0021.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 orientation">
+    <a href="images/Orientation/IMG-20201031-WA0016 (2).jpg" data-lightbox="library" >
+      <img src="images/Orientation/IMG-20201031-WA0016 (2).jpg" class="img-thumbnail gallery-img" style="height: 180px; width: 500px;">
+    </a>
+  </div>
+</div>
+
+
+<div class="row mb-4 second-row align-items-end" style="padding: 10px;">
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/Leader ship test/IMG-20201031-WA0012.jpg" data-lightbox="library" >
+      <img src="images/Leader ship test/IMG-20201031-WA0012.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/old picture/CSI Family.jpeg" data-lightbox="library" >
+      <img src="images/old picture/CSI Family.jpeg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/old picture/CSI Student Branch.jpg" data-lightbox="library" >
+      <img src="images/old picture/CSI Student Branch.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+  <div class="col-lg-3 col-sm-6 col-10 mx-auto p-2 column1 people">
+    <a href="images/old picture/IMG-20201030-WA0007.jpg" data-lightbox="library" >
+      <img src="images/old picture/IMG-20201030-WA0007.jpg" class="img-thumbnail gallery-img">
+    </a>
+  </div>
+</div>
+
+
+</section>
+</div>
+
+        
+        
+        <!-- Javascript Files
+        ================================================== -->
+    
+        <!-- initialize jQuery Library -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <!-- Bootstrap jQuery -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- Style Switcher -->
+        <script type="text/javascript" src="js/style-switcher.js"></script>
+        <!-- Owl Carousel -->
+        <script type="text/javascript" src="js/owl.carousel.js"></script>
+        <!-- PrettyPhoto -->
+        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+        <!-- Bxslider -->
+        <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+        <!-- CD Hero slider -->
+        <script type="text/javascript" src="js/cd-hero.js"></script>
+        <!-- Isotope -->
+        <script type="text/javascript" src="js/isotope.js"></script>
+        <script type="text/javascript" src="js/ini.isotope.js"></script>
+        <!-- Wow Animation -->
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <!-- SmoothScroll -->
+        <script type="text/javascript" src="js/smoothscroll.js"></script>
+        <!-- Eeasing -->
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <!-- Counter -->
+        <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+        <!-- Waypoints -->
+        <script type="text/javascript" src="js/waypoints.min.js"></script>
+        <!-- Template custom -->
+        <script type="text/javascript" src="js/custom.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script src="js/lightbox.js"></script>
+        
+        <script>
+          filterSelection("all1") // Execute the function and show all columns
+          function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("column1");
+            if (c == "all1") c = "";
+            // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+            for (i = 0; i < x.length; i++) {
+              w3RemoveClass(x[i], "show1");
+              if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show1");
+            }
+          }
+
+          // Show filtered elements
+          function w3AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+              if (arr1.indexOf(arr2[i]) == -1) {
+                element.className += " " + arr2[i];
+              }
+            }
+          }
+
+          // Hide elements that are not selected
+          function w3RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+              while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+              }
+            }
+            element.className = arr1.join(" ");
+          }
+
+          // Add active class to the current button (highlight it)
+          var btnContainer = document.getElementById("myBtnContainer");
+          var btns = btnContainer.getElementsByClassName("btn");
+          for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function(){
+              var current = document.getElementsByClassName("active1");
+              current[0].className = current[0].className.replace(" active1", "");
+              this.className += " active1";
+            });
+          }
+        </script>
+        </div><!-- Body inner end -->
+        <div class="gap-40"></div>
+
+
+
+	
+
+        <section id="copyright" class="copyright angle">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                      <ul class="footer-social unstyled">
+                          <li>
+                              <a title="linkedin" href="https://www.linkedin.com/company/pict-csi">
+                                  <span class="icon-pentagon wow bounceIn"><i class="fa fa-linkedin"></i></span>
+                              </a>
+                              <a title="instagram" href="https://instagram.com/csipict?igshid=nwle2ykrvqsl">
+                                  <span class="icon-pentagon wow bounceIn"><i class="fa fa-instagram"></i></span>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                      <div class="copyright-info">
+                          &copy; Copyright 2020. <span>Developed with love by PCSB Web Team</span>
+                      </div>
+                  </div>
+              </div>
+              <!--/ Row end -->
+              <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
+                  <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-double-up"></i></button>
+              </div>
+          </div>
+          <!--/ Container end -->
+      </section>
+      <!--/ Footer end -->
+</body>
+</html>
